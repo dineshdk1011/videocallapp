@@ -1,8 +1,8 @@
 /* eslint-disable import/first */
-process.env.TWILIO_ACCOUNT_SID = 'mockAccountSid';
-process.env.TWILIO_API_KEY_SID = 'mockApiKeySid';
-process.env.TWILIO_API_KEY_SECRET = 'mockApiKeySecret';
-process.env.TWILIO_CONVERSATIONS_SERVICE_SID = 'mockConversationsServiceSid';
+process.env.TWILIO_ACCOUNT_SID = 'AC91d53aa8880d2003bbbcf33673784b6a';
+process.env.TWILIO_API_KEY_SID = 'SKa0a8ce9b75dfb722b068750b612129e5';
+process.env.TWILIO_API_KEY_SECRET = '4FslYQc75YfQNuJxjunqtWuaJXcvurii';
+process.env.TWILIO_CONVERSATIONS_SERVICE_SID = 'ISc7542985a4a4402e9f5162eca6c640dd';
 
 import { createExpressHandler } from '../createExpressHandler';
 import { ServerlessFunction } from '../types';
